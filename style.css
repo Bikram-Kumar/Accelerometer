@@ -1,0 +1,31 @@
+body {
+  background: #213236;
+  color: #b6781f;
+}
+p {
+  font-size: 1.5rem;
+  position: fixed;
+  text-align: center;
+}
+p:nth-child(2) {
+  top: 40%;
+}
+p:nth-child(3) {
+  top: 50%;
+}
+p:nth-child(4) {
+  top: 60%;
+}
+#toggleButton {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%,0);
+  background: #ee1c1c;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 30%;
+  font-size: 2rem;
+  padding: 20px;
+}

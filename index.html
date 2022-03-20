@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Accelerometer</title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+</head>
+<body>
+  <h1 style="color:#f5e45e; text-align: center;">Accelerometer</h1>
+  <p>
+    Distance: <span id="distanceDisplay">0</span> m
+  </p>
+  <p>
+    Velocity: <span id="velocityDisplay">0</span> m/s
+  </p>
+  <p>
+    Acceleration: <span id="accelerationDisplay">0</span> m/s<sup>2</sup>
+  </p>
+  <button id="toggleButton" onclick = 'toggle()' >Start</button>
+  <script src="physics.js" type="text/javascript" charset="utf-8"></script>
+  <script src="main.js" type="text/javascript" charset="utf-8"></script>
+  <script src="geolocation.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
